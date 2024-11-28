@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maysam Torabi - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        .fa-flag {
+            color: #000;
+        }
+        .fa-flag:before {
+            content: "\f024";
+        }
+        .fa-flag-usa {
+            color: #fff;
+        }
+        .fa-flag-usa:before {
+            content: "\f024";
+            background: linear-gradient(to bottom, #b22234, #b22234) no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fa-flag-de {
+            color: #fff;
+        }
+        .fa-flag-de:before {
+            content: "\f024";
+            background: linear-gradient(to bottom, #000, #fff, #ff0000) no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fa-flag-ir {
+            color: #fff;
+        }
+        .fa-flag-ir:before {
+            content: "\f024";
+            background: linear-gradient(to bottom, #00698f, #00698f, #daa520) no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fa-flag-my {
+            color: #fff;
+        }
+        .fa-flag-my:before {
+            content: "\f024";
+            background: linear-gradient(to bottom, #ce1126, #ffd700, #000, #ffd700, #ce1126) no-repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Hi, I'm Maysam Torabi</h1>
+                    <p class="subtitle">Software-Magier at medigital GmbH | Based in Basel, Switzerland</p>
+                    <div class="social-links">
+                        <a href="https://github.com/maysam" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/maysam" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.codehospital.com" target="_blank"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>As a seasoned Software Engineer with over two decades of global experience, I bring a unique blend of technical expertise and cross-cultural perspective to every project. Currently serving as a Software-Magier at medigital GmbH in Basel, Switzerland, I specialize in crafting innovative healthcare software solutions that make a real difference in people's lives.</p>
+
+                        <p>My journey in technology has taken me across continents - from Switzerland to Germany, Malaysia to Singapore, and Iran - allowing me to work with diverse teams and tackle complex challenges in various cultural contexts. This international experience has shaped my approach to problem-solving and reinforced my belief in the power of technology to bridge gaps and create meaningful solutions.</p>
+
+                        <p>I'm passionate about full-stack development and have a particular interest in healthcare technology, modern web applications, and scalable architecture. Whether it's implementing secure patient data systems or optimizing application performance, I focus on delivering solutions that are not just technically sound but also user-centric and impactful.</p>
+                    </div>
+                    <div class="technical-expertise">
+                        <h3>Technical Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4><i class="fas fa-laptop-code"></i> Frontend Development</h4>
+                                <ul>
+                                    <li><i class="fab fa-react"></i> React/React Native</li>
+                                    <li><i class="fab fa-js"></i> TypeScript/JavaScript</li>
+                                    <li><i class="fab fa-vuejs"></i> Vue.js/Angular</li>
+                                    <li><i class="fab fa-sass"></i> Modern CSS/SASS</li>
+                                    <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-server"></i> Backend Development</h4>
+                                <ul>
+                                    <li><i class="fas fa-gem"></i> Ruby on Rails</li>
+                                    <li><i class="fab fa-node-js"></i> Node.js/Express</li>
+                                    <li><i class="fab fa-python"></i> Python/Django</li>
+                                    <li><i class="fab fa-php"></i> PHP/Laravel</li>
+                                    <li><i class="fab fa-java"></i> Java Spring Boot</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-database"></i> Database & API</h4>
+                                <ul>
+                                    <li><i class="fas fa-database"></i> PostgreSQL/MySQL</li>
+                                    <li><i class="fas fa-database"></i> MongoDB/Redis</li>
+                                    <li><i class="fas fa-project-diagram"></i> GraphQL APIs</li>
+                                    <li><i class="fas fa-exchange-alt"></i> RESTful Services</li>
+                                    <li><i class="fas fa-shield-alt"></i> API Security</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-cloud"></i> DevOps & Cloud</h4>
+                                <ul>
+                                    <li><i class="fab fa-docker"></i> Docker/Kubernetes</li>
+                                    <li><i class="fab fa-aws"></i> AWS Services</li>
+                                    <li><i class="fas fa-infinity"></i> CI/CD Pipelines</li>
+                                    <li><i class="fas fa-code"></i> Infrastructure as Code</li>
+                                    <li><i class="fas fa-lock"></i> Cloud Security</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-vial"></i> Testing & Quality</h4>
+                                <ul>
+                                    <li><i class="fas fa-code-branch"></i> Test-Driven Development</li>
+                                    <li><i class="fas fa-check-circle"></i> Unit/Integration Testing</li>
+                                    <li><i class="fas fa-window-maximize"></i> E2E Testing</li>
+                                    <li><i class="fas fa-tachometer-alt"></i> Performance Testing</li>
+                                    <li><i class="fas fa-shield-virus"></i> Security Testing</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h4><i class="fas fa-code-branch"></i> Best Practices</h4>
+                                <ul>
+                                    <li><i class="fas fa-users"></i> Agile/Scrum</li>
+                                    <li><i class="fas fa-code"></i> Code Review</li>
+                                    <li><i class="fas fa-sitemap"></i> System Architecture</li>
+                                    <li><i class="fas fa-rocket"></i> Performance Optimization</li>
+                                    <li><i class="fas fa-shield-alt"></i> Security Standards</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Auth Client/Server</h3>
+                        <p>A complete authentication solution using JWT tokens, built with EmberJS client and Rails API server.</p>
+                        <a href="https://github.com/maysam/auth_client" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Axmax</h3>
+                        <p>A photo management tool that helps users choose the best photos and efficiently manage their photo collection.</p>
+                        <a href="https://github.com/maysam/axmax" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>GeoTools</h3>
+                        <p>A collection of geospatial tools and utilities for processing geographical data.</p>
+                        <a href="https://github.com/maysam/geotools" class="btn">View Project</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experience" class="experience">
+                <h2>Professional Experience</h2>
+                <div class="experience-carousel">
+                    <div class="experience-slide">
+                        <h3>Senior Software Engineer</h3>
+                        <div class="company">medigital GmbH</div>
+                        <div class="date">2023 - Present</div>
+                        <div class="description">
+                            <ul>
+                                <li>Leading development of innovative healthcare software solutions</li>
+                                <li>Architecting and implementing scalable web applications</li>
+                                <li>Mentoring team members and establishing best practices</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-slide">
+                        <h3>Senior Software Engineer</h3>
+                        <div class="company">eyelevel.care_de</div>
+                        <div class="date">2022 - 2023</div>
+                        <div class="description">
+                            <ul>
+                                <li>Developed and maintained healthcare management systems</li>
+                                <li>Implemented secure patient data handling solutions</li>
+                                <li>Optimized application performance and user experience</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-slide">
+                        <h3>Lead Developer</h3>
+                        <div class="company">CartKit</div>
+                        <div class="date">2021 - 2022</div>
+                        <div class="description">
+                            <ul>
+                                <li>Led the development of e-commerce solutions</li>
+                                <li>Managed team of developers and project timelines</li>
+                                <li>Implemented payment integration and security features</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-slide">
+                        <h3>Full Stack Developer</h3>
+                        <div class="company">conlance GmbH</div>
+                        <div class="date">2020 - 2021</div>
+                        <div class="description">
+                            <ul>
+                                <li>Built and maintained web applications using modern technologies</li>
+                                <li>Collaborated with cross-functional teams</li>
+                                <li>Implemented responsive design and mobile-first approaches</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="languages" class="languages">
+                <h2>Languages</h2>
+                <div class="language-grid">
+                    <div class="language-item">
+                        <span class="flag">🇺🇸</span>
+                        <h3>English</h3>
+                        <p>Fluent</p>
+                    </div>
+                    <div class="language-item">
+                        <span class="flag">🇩🇪</span>
+                        <h3>German</h3>
+                        <p>Professional Working Proficiency</p>
+                    </div>
+                    <div class="language-item">
+                        <span class="flag">🇫🇷</span>
+                        <h3>French</h3>
+                        <p>Beginner</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>Amirkabir University of Technology</h3>
+                        <p>Master's degree in Software Engineering</p>
+                        <p>2003 - 2006</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>The Australian National University</h3>
+                        <p>Bachelor of Science in Computer Science/Software Engineering</p>
+                        <p>1999 - 2000</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>University of Malaya</h3>
+                        <p>Master of Science in Computer Science</p>
+                        <p>Specialization: Biosignal Processing, Theoretical Neuroscience</p>
+                        <p>2010</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recommendations" class="testimonials">
+                <h2>Recommendations</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_110628_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_110717_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_113614_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_113650_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_113723_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_113752_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_113836_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_114520_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_114555_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_114621_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_114703_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/Opera Snapshot_2020-08-01_114840_www.linkedin.com.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/SCR-20231216-nkry.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/linkedin/SCR-20231216-nkwa.png" alt="LinkedIn Recommendation" class="recommendation-img">
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="testimonials">
+                <h2>Client Testimonials</h2>
+                <div class="testimonial-slider">
+                    <div class="slide">
+                        <img src="img/freelancer/Opera Snapshot_2020-08-04_152947_www.freelancer.com.png" alt="Client Review 1">
+                    </div>
+                    <div class="slide">
+                        <img src="img/freelancer/Opera Snapshot_2020-08-04_153626_www.freelancer.com.png" alt="Client Review 2">
+                    </div>
+                    <div class="slide">
+                        <img src="img/freelancer/Opera Snapshot_2020-08-04_153854_www.freelancer.com.png" alt="Client Review 3">
+                    </div>
+                    <div class="slide">
+                        <img src="img/freelancer/Opera Snapshot_2020-08-04_154052_www.freelancer.com.png" alt="Client Review 4">
+                    </div>
+                    <div class="slide">
+                        <img src="img/freelancer/Opera Snapshot_2020-08-04_154148_www.freelancer.com.png" alt="Client Review 5">
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Get In Touch</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Maysam Torabi. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/slick-init.js"></script>
+    <script src="js/contact-form.js"></script>
+</body>
+</html>
